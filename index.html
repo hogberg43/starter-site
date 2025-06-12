@@ -3,27 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon</title>
+    <title>Kind Daisy</title>
     <style>
-        body {
+        html {
+            box-sizing: border-box;
+            font-size: 16px;
+            font-family: poppins;
+        }
+        .container {
             display: flex;
             flex-direction: column;
             min-height: 100vh;
             margin: 0;
             align-items: center;
             justify-content: center;
-            font-family: sans-serif;
+            
             background: #fafafa;
+            background-image: url('/img/logo.png');
+            opacity: 0.3;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: contain;
         }
-        h1 {
+        .content {
+            position: absolute;
+            bottom: 68px;
+            left:17px;
+        }
+        h1, h2 {
             color: #007e2c;
             font-size: 2.5rem;
+            font-weight: 100;
             letter-spacing: 2px;
         }
+        h2 {
+            font-size: 1.5rem;
+            color: black;
+        }
     </style>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Kind Daisy</h1>
-    <h2>Coming Soon</h2>
+    <div class="container">
+        
+    
+    </div>
+    <div class="content">
+            <h1>Coming Soon</h1>
+        </div>
+    
 </body>
 </html>
